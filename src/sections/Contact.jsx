@@ -109,7 +109,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-3 md:gap-12 max-w-lg md:max-w-5xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-3 md:gap-12 max-w-md sm:max-w-lg md:max-w-5xl mx-auto">
           <div className="glass p-5 md:p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300 scale-85 md:scale-100 -left-12 md:ml-0">
             <form className="space-y-3 md:space-y-6" onSubmit={handleSubmit}>
               <div>
