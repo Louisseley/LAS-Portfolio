@@ -88,6 +88,7 @@ const Experience = () => {
           <div className="flex gap-2">
             {experience.map((_, idx) => (
               <button
+                key={idx}
                 onClick={() => setActiveIdx(idx)}
                 className={`w-2 h-2 rounded-full transition-all duration-300 ${
                   idx === activeIdx
