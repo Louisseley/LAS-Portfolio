@@ -98,7 +98,7 @@ const Contact = () => {
         <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-highlight/5 rounded-full blur-3xl" />
       </div>
 
-      <div className="container mx-auto p-1 md:px-6 relative z-10">
+      <div className="container mx-auto pr-1 md:px-6 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 px-3 md:px-0">
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
@@ -109,7 +109,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 p-2 gap-3 md:gap-12 max-w-5xl mx-auto">
+        <div className="grid lg:grid-cols-2 pr-1 gap-3 md:gap-12 max-w-5xl mx-auto">
           <div className="glass p-4 sm:p-6 md:p-8 rounded-2xl md:rounded-3xl border border-primary/30 animate-fade-in animation-delay-300 scale-85 md:scale-100 -left-12 md:ml-0">
             <form className="space-y-3 md:space-y-6" onSubmit={handleSubmit}>
               <div>
@@ -226,7 +226,7 @@ const Contact = () => {
                       <div className="text-sm text-muted-foreground">
                         {item.label}
                       </div>
-                      <div className="font-medium">{item.value}</div>
+                      <div className="font-normal">{item.value}</div>
                     </div>
                   </a>
                 ))}
