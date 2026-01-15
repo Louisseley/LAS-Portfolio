@@ -26,7 +26,7 @@ const trivia = [
   },
   {
     question: "What course or degree did you take?",
-    answer: "I take Bachelor of Science in Computer Engineering",
+    answer: "I took a Bachelor of Science in Computer Engineering",
   },
   {
     question: "What school or university did you attend?",
