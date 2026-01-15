@@ -143,14 +143,14 @@ const Hero = () => {
           </div>
 
           <div className="relative animate-fade-in animation-delay-300 mt-5 md:mt-0">
-            <div lassName="relative max-w-md mx-auto">
+            <div className="relative max-w-3xl mx-auto">
               <div
                 className="absolute inset-0
               rounded-3xl bg-linear-to-br 
               from-primary/30 via-transparent 
               to-primary/10 blur-2xl animate-pulse"
               />
-              <div className="relative glass rounded-3xl px-0 md:p-2 glow-border mx-2 md:mx-auto w-87.5 md:w-full">
+              <div className="relative glass rounded-3xl px-0 p-2 glow-border mx-auto">
                 <img
                   src="/LA-pic.png"
                   alt="LA Profile"
