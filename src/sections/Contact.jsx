@@ -109,8 +109,8 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-3 md:gap-12 max-w-md sm:max-w-lg md:max-w-5xl mx-auto">
-          <div className="glass p-5 md:p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300 scale-85 md:scale-100 -left-12 md:ml-0">
+        <div className="grid lg:grid-cols-2 gap-3 md:gap-12 max-w-5xl mx-auto">
+          <div className="glass p-4 sm:p-6 md:p-8 rounded-2xl md:rounded-3xl border border-primary/30 animate-fade-in animation-delay-300 scale-85 md:scale-100 -left-12 md:ml-0">
             <form className="space-y-3 md:space-y-6" onSubmit={handleSubmit}>
               <div>
                 <label
@@ -123,7 +123,7 @@ const Contact = () => {
                   id="name"
                   type="text"
                   required
-                  placeholder="Your name..."
+                  placeholder="Your name"
                   value={formData.name}
                   onChange={(e) =>
                     setFormData({ ...formData, name: e.target.value })
@@ -142,7 +142,7 @@ const Contact = () => {
                 </label>
                 <input
                   required
-                  placeholder="your@email.com"
+                  placeholder="example@gmail.com"
                   value={formData.email}
                   onChange={(e) =>
                     setFormData({ ...formData, email: e.target.value })
@@ -207,9 +207,9 @@ const Contact = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="space-y-6 animate-fade-in animation-delay-400 scale-80 md:scale-100">
-            <div className="glass rounded-3xl p-8">
-              <h3 className="text-xl font-semibold mb-6">
+          <div className="space-y-6 px-2 sm:px-4 md:px-0 animate-fade-in animation-delay-400">
+            <div className="glass rounded-2xl md:rounded-3xl p-4 md:p-8">
+              <h3 className="text-lg md:text-xl font-semibold mb-6">
                 Contact Information
               </h3>
               <div className="space-y-4">
@@ -217,7 +217,7 @@ const Contact = () => {
                   <a
                     key={i}
                     href={item.href}
-                    className="flex items-center gap-4 p-4 rounded-xl hover:bg-surface transition-colors group"
+                    className="flex items-center gap-4 p-3 md:p-4 rounded-xl hover:bg-surface transition-colors group"
                   >
                     <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                       <item.icon className="w-5 h-5 text-primary" />
@@ -234,13 +234,13 @@ const Contact = () => {
             </div>
 
             {/* Availability Card */}
-            <div className="glass rounded-3xl p-4 md:p-8 border border-primary/30">
+            <div className="glass rounded-2xl md:rounded-3xl p-8 border border-primary/30">
               <div className="flex items-center gap-3 mb-4">
                 <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
                 <span className="font-medium">Currently Available</span>
               </div>
               <p className="text-muted-foreground text-sm">
-                I am currecntly looking for a position related to my field as a
+                I am currently looking for a position related to my field as a
                 graduate of a bachelor degreen in Computer Engineering. I am
                 eager to learn modern technologies, take on new challenges, and
                 contribute my skills and knowledge to the company success and my
