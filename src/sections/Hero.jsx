@@ -108,7 +108,7 @@ const Hero = () => {
                 Computer Engineer
               </span>
             </div>
-            <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200 tracking-wide">
+            <p className="text-lg  pr-3 text-muted-foreground max-w-lg animate-fade-in animation-delay-200 tracking-wide">
               A motivated Computer Engineer graduate with a foundation with
               hardware and software development. I'm ready to use my technical
               skills to help the company grow and contribute to the industry.
@@ -129,7 +129,7 @@ const Hero = () => {
             </div>
 
             {/* Social Links */}
-            <div className="flex items-center gap-4 animate-fade-in animation-delay-400 mx-auto mt-10 ml-28 md:ml-0">
+            <div className="flex items-center gap-4 animate-fade-in animation-delay-400 mx-auto mt-10 ">
               {SocialMedia.map((social, idx) => (
                 <a
                   key={idx}
@@ -145,12 +145,12 @@ const Hero = () => {
           <div className="relative animate-fade-in animation-delay-300 mt-5 md:mt-0">
             <div lassName="relative max-w-md mx-auto">
               <div
-                className="absolute inset-0 
+                className="absolute inset-0
               rounded-3xl bg-linear-to-br 
               from-primary/30 via-transparent 
               to-primary/10 blur-2xl animate-pulse"
               />
-              <div className="relative glass rounded-3xl p-2 glow-border mx-auto">
+              <div className="relative glass rounded-3xl px-0 md:p-2 glow-border mx-2 md:mx-auto w-87.5 md:w-full">
                 <img
                   src="/LA-pic.png"
                   alt="LA Profile"
